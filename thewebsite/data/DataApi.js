@@ -5,4 +5,5 @@ export async function welcomeUsers (){
     let res = await fetch(`${url}users`);
     return res.json();
 }
+
 // welcomeUsers().then(res => console.log(res));
